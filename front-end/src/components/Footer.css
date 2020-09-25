@@ -1,6 +1,6 @@
 .footer {
   grid-area: footer;
-  background-color: black;
+  background-color: grey;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -9,13 +9,11 @@
   color: white;
 }
 
-
 .footer a {
   color: white;
 }
 
-.footer-copyright{
+.footer-copyright {
   margin-top: 2.5px;
   text-align: center;
-
 }
