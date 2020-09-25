@@ -4,10 +4,6 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 function Navbar() {
-  const openMenu = () => {
-    document.querySelector(".sidebar").classList.add("open");
-  };
-
   const userSignin = useSelector((state) => state.userSignin);
   const { userInfo } = userSignin;
 
@@ -18,6 +14,9 @@ function Navbar() {
           <Link to="/">Simplicity</Link>
         </div>
         <ul id="nav-mobile" className="right">
+          <li>
+            <Link to="/Productpage1">Products</Link>
+          </li>
           {userInfo ? (
             <li>{userInfo.name}</li>
           ) : (
@@ -27,6 +26,9 @@ function Navbar() {
           )}
           <li>
             <Link to="/">Cart</Link>
+          </li>
+          <li>
+            <Link to="/About">About Us</Link>
           </li>
         </ul>
       </div>

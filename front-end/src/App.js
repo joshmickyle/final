@@ -16,6 +16,7 @@ import ProductMangement from "./components/pages/Productmangement";
 import ShippingPage from "./components/pages/Shippingpage";
 import PaymentsPage from "./components/pages/Paymentspage";
 import OrderPage from "./components/pages/Orderpage";
+import ProductPage1 from "./components/pages/Productpage1";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Navbar />
         <main className="main">
           <Route path="/" exact={true} component={HomePage} />
+          <Route path="/productpage1" component={ProductPage1} />
           <Route path="/product/:id" component={ProductPage} />
           <Route path="/cart/:id?" component={CartPage} />
           <Route path="/signin" component={SigninPage} />

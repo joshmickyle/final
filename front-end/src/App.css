@@ -29,7 +29,7 @@ body {
 .main {
   grid-area: main;
   background-color: whitesmoke;
-  color: white;
+  color: black;
 }
 
 new badge red {
