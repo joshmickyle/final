@@ -1,0 +1,12 @@
+.preloader-wrapper{
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    opacity: 0.7;
+    font-weight: bolder;
+    
+}
+
+.spinner-blue{
+    color: white;
+}

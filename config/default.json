@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://josh:josh@simplicity.1kbwe.mongodb.net/simplicity?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}

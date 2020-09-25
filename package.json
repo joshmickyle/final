@@ -1,0 +1,42 @@
+{
+  "name": "e-commerce-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "front-end": "npm start --prefix front-end",
+    "front-endinstall": "npm install --prefix front-end",
+    "dev": "concurrently \"npm run server\" \"npm run front-end\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix front-end && npm run build --prefix front-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshmickyle"
+  },
+  "author": "Chad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshmickyle"
+  },
+  "homepage": "https://github.com/joshmickyle",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

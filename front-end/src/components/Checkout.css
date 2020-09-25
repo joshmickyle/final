@@ -1,0 +1,16 @@
+.checkout-steps {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 50px auto;
+}
+.checkout-steps > div {
+  border-top: 3px black;
+  color: black;
+  flex: 1 1;
+  padding-top: 10px;
+}
+.checkout-steps > div.active {
+  border-top: 3px black;
+  color: black;
+}

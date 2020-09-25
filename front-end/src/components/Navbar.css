@@ -1,0 +1,45 @@
+/* Navbar */
+.navbar {
+  grid-area: navbar;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.nav-wrapper {
+  background-color: black;
+}
+
+/* Hamburger menu */
+.btn-flat {
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 14px;
+  background: none;
+  border: none;
+  color:white;
+  transition: .3s;
+}
+
+
+.btn-flat text:hover {
+  box-shadow:  20px 20px 60px #b3b7ba, 
+             -20px -20px 60px #f2f7fc;
+}
+
+.nav-brand Link {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links Link {
+  color: crimson;
+  text-decoration: none;
+}
+
+.nav-links Link:hover {
+  color: orange;
+  text-decoration: none;
+}

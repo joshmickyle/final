@@ -1,0 +1,21 @@
+.footer {
+  grid-area: footer;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.footer a {
+  color: white;
+}
+
+.footer-copyright{
+  margin-top: 2.5px;
+  text-align: center;
+
+}

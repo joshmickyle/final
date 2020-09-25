@@ -1,0 +1,29 @@
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+  
+.content-margined {
+    margin: 25px;
+}
+  
+.table {
+    width: 100%;
+}
+th {
+    text-align: left;
+}
+tbody > tr:nth-child(odd) {
+    background-color: #ffcc80;
+}
+
+.manage-button, .modal-trigger {
+    background-color: #ff6d00;
+    margin-bottom: 8px;
+}
+
+.table-button{
+    background-color: #ffa726;
+    margin-right: 8px;
+}
